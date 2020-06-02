@@ -1,0 +1,79 @@
+.btn {
+    background-color: #ef3c40;
+    border-color: #ef3c40;
+    color: white;
+}
+.btn:hover {
+    background-color: darkred;
+    border-color: indianred;
+    color: white;
+}
+nav {
+    background-color: #ef3c40;
+    color: white;
+}
+#brand {
+    color: white;
+    font-weight: bold;
+}
+.nav-link {
+    color: white !important;
+}
+.nav-link:hover {
+    color: white;
+}
+.active {
+    font-weight: bold;
+}
+.navbar-toggler {
+    background-color: white !important;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    column-gap: 72px;
+    justify-items: center;
+}
+.grid-item {
+    text-align: center;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+.grid-item:hover {
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    transition: box-shadow 200ms;
+}
+.icon {
+    width: 280%;
+    height: 100%;
+    float:left;
+}
+.title {
+    margin: 13px 0 0 0;
+}
+.line_1 {
+    margin-bottom: 13px;
+}
+#app_store {
+    width: 100%;
+    height: 100%;
+}
+#google_play {
+    width: 100%;
+    height: 100%;
+}
+.jumbotron {
+    padding: 20px 0 5px 0;
+    background-color: beige;
+}
+.display-4 {
+    font-size: 250%;
+    font-weight: 300;
+}
+.header {
+    text-align: left;
+}
+.card-title {
+    margin: 0 0 0 62px;
+}

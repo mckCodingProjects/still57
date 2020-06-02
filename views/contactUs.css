@@ -1,0 +1,56 @@
+.btn {
+    background-color: #ef3c40;
+    border-color: #ef3c40;
+    color: white;
+}
+.btn:hover {
+    background-color: darkred;
+    border-color: indianred;
+    color: white;
+}
+nav {
+    margin-bottom: 30px;
+    background-color: #ef3c40;
+    color: white;
+}
+#brand {
+    color: white;
+    font-weight: bold;
+}
+h3 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+.nav-link {
+    color: white !important;
+}
+.nav-link:hover {
+    color: white;
+}
+.active {
+    font-weight: bold;
+}
+.navbar-toggler {
+    background-color: white !important;
+}
+.hide {
+    display: none !important;
+}
+.grey {
+    border-color: lightgray !important;
+}
+#space {
+    background-color: #CCE5FF;
+    width: 37px;
+    height: 87px;
+    float: left;
+}
+.alert {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+#g-recaptcha-error {
+    margin-bottom: 13px;
+    color:#DF4554;
+    font-size: 13px;
+}
