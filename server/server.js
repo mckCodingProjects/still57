@@ -29,7 +29,7 @@ app.use(express.static(viewsPath));
 app.use(bodyParser.urlencoded({extended:false}));
 app.use(bodyParser.json());
 
-app.get('/games', (req, res) => {
+app.get('/', (req, res) => {
     res.render('index.html');
 });
 
