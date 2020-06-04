@@ -81,3 +81,21 @@ nav {
 .card-title {
     margin: 0 0 0 62px;
 }
+#img-img {
+   width: 500px;
+}
+
+ /* For Mobile */
+@media screen and (max-width: 540px) {
+    #img-img {
+        width: 300px;
+        margin-bottom: 20px;
+    }
+}
+
+/* For Tablets */
+@media screen and (min-width: 540px) and (max-width: 780px) {
+    #img-img {
+        width: 300px;
+    }
+}
