@@ -37,7 +37,7 @@ app.get('/contactUs', (req, res) => {
     res.redirect('http://www.still57games.com/#contact');
 });
 
-app.get('/app-ads.txt', (req, res) => {
+app.get('/app-ads', (req, res) => {
     res.render('../app-ads.txt');
 });
 
