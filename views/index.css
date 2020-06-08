@@ -16,6 +16,7 @@ body {
     -o-background-size: 100% 100%;
     background-size: 100% 100%;
 */
+    border-radius: 0px;
     
 /*    color: black;*/
 }
@@ -99,6 +100,10 @@ a {
 #around-the-web {
     background-color: white;
     margin-bottom: 30px;
+}
+.atw:hover {
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    transition: box-shadow 200ms;
 }
 #img-img {
    width: 500px;
