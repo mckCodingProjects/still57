@@ -8,12 +8,14 @@ body {
 }
 .jumboT {
 /*    background-image: url("images/jumbotronImage1.png");*/
-    background: url("images/jumbotronImage1.png") repeat;
-    background-size:cover;
+    background: url("images/jumbotronImage2.png") repeat;
+    background-size:contain;
+/*
     -webkit-background-size: 100% 100%;
     -moz-background-size: 100% 100%;
     -o-background-size: 100% 100%;
     background-size: 100% 100%;
+*/
     
 /*    color: black;*/
 }
