@@ -12,7 +12,6 @@ const viewsPath = path.join(__dirname, '../views');
 const port = process.env.PORT || 3000;
 const app = express();
 const server = http.createServer(app);
-const io = socketIO(server);
 const transporter = nodemailer.createTransport({
     service: 'gmail',
     auth: {
@@ -34,7 +33,12 @@ app.get('/', (req, res) => {
 });
 
 app.get('/contactUs', (req, res) => {
-    res.render('contactUs.html');
+//    res.render('index.html');
+    res.redirect('http://www.still57games.com/#contact');
+});
+
+app.get('/app-ads.txt', (req, res) => {
+    res.render('../app-ads.txt');
 });
 
 app.post('/contactUsForm', (req, res) => {
@@ -50,17 +54,52 @@ app.post('/contactUsForm', (req, res) => {
             console.log(error);
         } else {
             console.log('Email sent: ' + info.response);
+            setTimeout(function (err) {
+        console.log('finished');
+        if (err)
+            throw err;
+        console.log('################');
+        res.redirect('/');
+    }, 4000);
         };
     });
 });
 
-//IO CONNECTIONS
-io.on('connection', (socket) => {
-    console.log('New user connected.');
-    socket.on('disconnect', () => {
-        console.log('User was disconnected');
-    });
-});
-    
 server.listen(port, () => console.log(`Server is up on port ${port}`));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//app.get('/games', (req, res) => {
+//    res.render('games/games.html');
+//});
+
+//app.get('/contact', (req, res) => {
+//    res.render('contact/contact.html');
+//});
 

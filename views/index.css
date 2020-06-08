@@ -1,3 +1,149 @@
+body {
+    background-color: #F8F9F9;
+}
+.jumbotron {
+    margin-bottom: 0px;
+    background-color: #17A2B8;
+    color: white;
+}
+.jumboT {
+/*    background-image: url("images/jumbotronImage1.png");*/
+    background: url("images/jumbotronImage1.png") repeat;
+    background-size:contain;
+    -webkit-background-size: 1% 1%;
+    -moz-background-size: 1% 1%;
+    -o-background-size: 1% 1%;
+    background-size: 1% 1%;
+    
+/*    color: black;*/
+}
+.btn {
+    color: white;
+    background-color: #17A2B8;
+}
+.btn:hover {
+    color: #17A2B8;
+    background-color: white;
+}
+#about-us {
+    background-color: white;
+    margin-bottom: 30px;
+}
+#about-us:hover {
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    transition: box-shadow 200ms;
+}
+.container-div {
+    padding-top: 20px;
+    padding-bottom: 14px;
+}
+h2 {
+    font-size: 120%;
+    color: #12A2B8;
+}
+#our-community {
+    background-color: white;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+}
+.card {
+    margin-top: 20px !important;
+/*    border-color: #17A2B8;*/
+    margin: 0 auto;
+}
+.card:hover {
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    transition: box-shadow 200ms;
+}
+a {
+    color: #17A2B8;
+}
+#games {
+    background-color: white;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+}
+.icon {
+    width: 280%;
+    height: 100%;
+    float:left;
+    margin-right: 12px;
+}
+.icon-down {
+    margin-bottom: 13px;
+}
+.title {
+    margin-top: 12px;
+}
+#app_store {
+    width: 100%;
+    height: 100%;
+}
+#google_play {
+    width: 100%;
+    height: 100%;
+}
+.header {
+    position:relative;
+    top: 10px;
+}
+#contact {
+    background-color: #343A40;
+    margin-bottom: 0px;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 0px;
+}
+#around-the-web {
+    background-color: white;
+    margin-bottom: 30px;
+}
+#img-img {
+   width: 500px;
+}
+/* For Mobile */
+
+@media screen and (max-width: 540px) {
+    #img-img {
+        width: 300px;
+        margin-bottom: 20px;
+    }
+}
+
+
+/* For Tablets */
+
+@media screen and (min-width: 540px) and (max-width: 780px) {
+    #img-img {
+        width: 300px;
+    }
+}
+.success-message {
+    background-color: #12A2B8;
+    color: white;
+    margin-bottom:25px;
+    padding-top: 25px;
+}
+.no-display {
+    display: none;
+}
+.display {
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 #heading-top {
    margin-top: 30px;
     margin-bottom: 40px;
@@ -21,6 +167,8 @@ nav {
     color: white;
     font-weight: bold;
 }
+*/
+/*
 .nav-link {
     color: white !important;
 }
@@ -57,6 +205,8 @@ nav {
 .title {
     margin: 13px 0 0 0;
 }
+*/
+/*
 .line_1 {
     margin-bottom: 13px;
 }
@@ -84,18 +234,23 @@ nav {
 #img-img {
    width: 500px;
 }
+*/
 
  /* For Mobile */
+/*
 @media screen and (max-width: 540px) {
     #img-img {
         width: 300px;
         margin-bottom: 20px;
     }
 }
+*/
 
 /* For Tablets */
+/*
 @media screen and (min-width: 540px) and (max-width: 780px) {
     #img-img {
         width: 300px;
     }
 }
+*/
