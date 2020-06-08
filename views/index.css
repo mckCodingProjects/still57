@@ -9,11 +9,11 @@ body {
 .jumboT {
 /*    background-image: url("images/jumbotronImage1.png");*/
     background: url("images/jumbotronImage1.png") repeat;
-    background-size:contain;
-    -webkit-background-size: 1% 1%;
-    -moz-background-size: 1% 1%;
-    -o-background-size: 1% 1%;
-    background-size: 1% 1%;
+    background-size:cover;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
     
 /*    color: black;*/
 }
